@@ -4,9 +4,9 @@
 
 int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
+// #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+//     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+// #endif // this is my comment
     QGuiApplication app(argc, argv);
     // I just add a new comment
     QQmlApplicationEngine engine;
@@ -18,5 +18,6 @@ int main(int argc, char *argv[])
     }, Qt::QueuedConnection);
     engine.load(url);
     // I just add a second comment
-    return app.exec();
+    // I just add coment here return app.exec();
+    return 0;
 }
