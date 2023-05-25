@@ -4,10 +4,12 @@
 
 int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
+
+// #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+//     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+// #endif // this is my comment
     QGuiApplication app(argc, argv);
+    // I just add a new comment
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
@@ -18,5 +20,10 @@ int main(int argc, char *argv[])
     }, Qt::QueuedConnection);
     engine.load(url);
 
+    // I just add a second comment
+
+    // I just fix my local
+    // I have already fix confict
     return app.exec();
+
 }
