@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Gif/pic.JPG</file>
+        <file>My_components/MyApp_butn.qml</file>
+        <file>State/Page1.qml</file>
+        <file>State/Page2.qml</file>
+        <file>State/Page3.qml</file>
+        <file>State/Screen1.qml</file>
+        <file>State/Screen2.qml</file>
+        <file>MyApp_background.qml</file>
+        <file>Icon/icons8-sign-out-48.png</file>
+        <file>MyApp_bar.qml</file>
+        <file>My_components/MyApp_Textbox.qml</file>
+        <file>State/ScreenLogin.qml</file>
+        <file>My_components/MyApp_login_textbox.qml</file>
+        <file>Video/jellyfish-110877.mp4</file>
+    </qresource>
+</RCC>
